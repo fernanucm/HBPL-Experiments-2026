@@ -1,0 +1,505 @@
+21:40
+=========================================================================
+Running Benchmark with: Equations=1 | Rules=0 | Assumptions=100
+=========================================================================
+Benchmark already exists: stocks-n_1_0_100.bpl.
+Benchmark already exists: stocks-s_1_0_100.bpl.
+****************************
+*       HBPL Nesting       *
+****************************
+*
+'stocks-n_1_0_100.tpl' already exists and is being loaded...
+Program loaded!
+Number of answers: 204
+true.
+
+../benchmarks/stocks-n_1_0_100.bpl: 0.157 sec. - 0.156 sec.
+Number of answers: 204
+true.
+
+../benchmarks/stocks-n_1_0_100.bpl: 0.156 sec. - 0.172 sec.
+Number of answers: 204
+true.
+
+../benchmarks/stocks-n_1_0_100.bpl: 0.156 sec. - 0.156 sec.
+Number of answers: 204
+true.
+
+../benchmarks/stocks-n_1_0_100.bpl: 0.156 sec. - 0.156 sec.
+Number of answers: 204
+true.
+
+../benchmarks/stocks-n_1_0_100.bpl: 0.140 sec. - 0.141 sec.
+Number of answers: 204
+true.
+
+../benchmarks/stocks-n_1_0_100.bpl: 0.125 sec. - 0.125 sec.
+Number of answers: 204
+true.
+
+../benchmarks/stocks-n_1_0_100.bpl: 0.140 sec. - 0.141 sec.
+Number of answers: 204
+true.
+
+../benchmarks/stocks-n_1_0_100.bpl: 0.141 sec. - 0.141 sec.
+Number of answers: 204
+true.
+
+../benchmarks/stocks-n_1_0_100.bpl: 0.141 sec. - 0.141 sec.
+Number of answers: 204
+true.
+
+../benchmarks/stocks-n_1_0_100.bpl: 0.141 sec. - 0.141 sec.
+Number of answers: 204
+true.
+
+../benchmarks/stocks-n_1_0_100.bpl: 0.140 sec. - 0.141 sec.
+=========================================================================
+Running Benchmark with: Equations=1 | Rules=0 | Assumptions=131
+=========================================================================
+Benchmark already exists: stocks-n_1_0_131.bpl.
+Benchmark already exists: stocks-s_1_0_131.bpl.
+****************************
+*       HBPL Nesting       *
+****************************
+*
+'stocks-n_1_0_131.tpl' already exists and is being loaded...
+Program loaded!
+Number of answers: 266
+true.
+
+../benchmarks/stocks-n_1_0_131.bpl: 0.328 sec. - 0.328 sec.
+Number of answers: 266
+true.
+
+../benchmarks/stocks-n_1_0_131.bpl: 0.297 sec. - 0.297 sec.
+Number of answers: 266
+true.
+
+../benchmarks/stocks-n_1_0_131.bpl: 0.297 sec. - 0.297 sec.
+Number of answers: 266
+true.
+
+../benchmarks/stocks-n_1_0_131.bpl: 0.281 sec. - 0.281 sec.
+Number of answers: 266
+true.
+
+../benchmarks/stocks-n_1_0_131.bpl: 0.297 sec. - 0.297 sec.
+Number of answers: 266
+true.
+
+../benchmarks/stocks-n_1_0_131.bpl: 0.297 sec. - 0.297 sec.
+Number of answers: 266
+true.
+
+../benchmarks/stocks-n_1_0_131.bpl: 0.266 sec. - 0.266 sec.
+Number of answers: 266
+true.
+
+../benchmarks/stocks-n_1_0_131.bpl: 0.297 sec. - 0.297 sec.
+Number of answers: 266
+true.
+
+../benchmarks/stocks-n_1_0_131.bpl: 0.282 sec. - 0.281 sec.
+Number of answers: 266
+true.
+
+../benchmarks/stocks-n_1_0_131.bpl: 0.297 sec. - 0.297 sec.
+Number of answers: 266
+true.
+
+../benchmarks/stocks-n_1_0_131.bpl: 0.296 sec. - 0.297 sec.
+=========================================================================
+Running Benchmark with: Equations=1 | Rules=0 | Assumptions=162
+=========================================================================
+Benchmark already exists: stocks-n_1_0_162.bpl.
+Benchmark already exists: stocks-s_1_0_162.bpl.
+****************************
+*       HBPL Nesting       *
+****************************
+*
+'stocks-n_1_0_162.tpl' already exists and is being loaded...
+Program loaded!
+Number of answers: 328
+true.
+
+../benchmarks/stocks-n_1_0_162.bpl: 0.531 sec. - 0.531 sec.
+Number of answers: 328
+true.
+
+../benchmarks/stocks-n_1_0_162.bpl: 0.563 sec. - 0.563 sec.
+Number of answers: 328
+true.
+
+../benchmarks/stocks-n_1_0_162.bpl: 0.547 sec. - 0.547 sec.
+Number of answers: 328
+true.
+
+../benchmarks/stocks-n_1_0_162.bpl: 0.547 sec. - 0.547 sec.
+Number of answers: 328
+true.
+
+../benchmarks/stocks-n_1_0_162.bpl: 0.562 sec. - 0.563 sec.
+Number of answers: 328
+true.
+
+../benchmarks/stocks-n_1_0_162.bpl: 0.547 sec. - 0.547 sec.
+Number of answers: 328
+true.
+
+../benchmarks/stocks-n_1_0_162.bpl: 0.531 sec. - 0.547 sec.
+Number of answers: 328
+true.
+
+../benchmarks/stocks-n_1_0_162.bpl: 0.531 sec. - 0.531 sec.
+Number of answers: 328
+true.
+
+../benchmarks/stocks-n_1_0_162.bpl: 0.547 sec. - 0.547 sec.
+Number of answers: 328
+true.
+
+../benchmarks/stocks-n_1_0_162.bpl: 0.531 sec. - 0.531 sec.
+Number of answers: 328
+true.
+
+../benchmarks/stocks-n_1_0_162.bpl: 0.563 sec. - 0.563 sec.
+=========================================================================
+Running Benchmark with: Equations=1 | Rules=0 | Assumptions=193
+=========================================================================
+Benchmark already exists: stocks-n_1_0_193.bpl.
+Benchmark already exists: stocks-s_1_0_193.bpl.
+****************************
+*       HBPL Nesting       *
+****************************
+*
+'stocks-n_1_0_193.tpl' already exists and is being loaded...
+Program loaded!
+Number of answers: 390
+true.
+
+../benchmarks/stocks-n_1_0_193.bpl: 0.937 sec. - 0.938 sec.
+Number of answers: 390
+true.
+
+../benchmarks/stocks-n_1_0_193.bpl: 0.937 sec. - 0.938 sec.
+Number of answers: 390
+true.
+
+../benchmarks/stocks-n_1_0_193.bpl: 0.938 sec. - 0.953 sec.
+Number of answers: 390
+true.
+
+../benchmarks/stocks-n_1_0_193.bpl: 1.000 sec. - 1.000 sec.
+Number of answers: 390
+true.
+
+../benchmarks/stocks-n_1_0_193.bpl: 0.984 sec. - 0.984 sec.
+Number of answers: 390
+true.
+
+../benchmarks/stocks-n_1_0_193.bpl: 0.890 sec. - 0.891 sec.
+Number of answers: 390
+true.
+
+../benchmarks/stocks-n_1_0_193.bpl: 0.968 sec. - 0.969 sec.
+Number of answers: 390
+true.
+
+../benchmarks/stocks-n_1_0_193.bpl: 0.953 sec. - 0.953 sec.
+Number of answers: 390
+true.
+
+../benchmarks/stocks-n_1_0_193.bpl: 0.922 sec. - 0.922 sec.
+Number of answers: 390
+true.
+
+../benchmarks/stocks-n_1_0_193.bpl: 0.906 sec. - 0.906 sec.
+Number of answers: 390
+true.
+
+../benchmarks/stocks-n_1_0_193.bpl: 0.922 sec. - 0.922 sec.
+=========================================================================
+Running Benchmark with: Equations=1 | Rules=0 | Assumptions=225
+=========================================================================
+Benchmark already exists: stocks-n_1_0_225.bpl.
+Benchmark already exists: stocks-s_1_0_225.bpl.
+****************************
+*       HBPL Nesting       *
+****************************
+*
+'stocks-n_1_0_225.tpl' already exists and is being loaded...
+Program loaded!
+Number of answers: 454
+true.
+
+../benchmarks/stocks-n_1_0_225.bpl: 1.422 sec. - 1.422 sec.
+Number of answers: 454
+true.
+
+../benchmarks/stocks-n_1_0_225.bpl: 1.406 sec. - 1.406 sec.
+Number of answers: 454
+true.
+
+../benchmarks/stocks-n_1_0_225.bpl: 1.390 sec. - 1.406 sec.
+Number of answers: 454
+true.
+
+../benchmarks/stocks-n_1_0_225.bpl: 1.407 sec. - 1.406 sec.
+Number of answers: 454
+true.
+
+../benchmarks/stocks-n_1_0_225.bpl: 1.375 sec. - 1.375 sec.
+Number of answers: 454
+true.
+
+../benchmarks/stocks-n_1_0_225.bpl: 1.438 sec. - 1.438 sec.
+Number of answers: 454
+true.
+
+../benchmarks/stocks-n_1_0_225.bpl: 1.453 sec. - 1.453 sec.
+Number of answers: 454
+true.
+
+../benchmarks/stocks-n_1_0_225.bpl: 1.484 sec. - 1.484 sec.
+Number of answers: 454
+true.
+
+../benchmarks/stocks-n_1_0_225.bpl: 1.407 sec. - 1.406 sec.
+Number of answers: 454
+true.
+
+../benchmarks/stocks-n_1_0_225.bpl: 1.421 sec. - 1.422 sec.
+Number of answers: 454
+true.
+
+../benchmarks/stocks-n_1_0_225.bpl: 1.422 sec. - 1.422 sec.
+=========================================================================
+Running Benchmark with: Equations=1 | Rules=0 | Assumptions=256
+=========================================================================
+Benchmark already exists: stocks-n_1_0_256.bpl.
+Benchmark already exists: stocks-s_1_0_256.bpl.
+****************************
+*       HBPL Nesting       *
+****************************
+*
+'stocks-n_1_0_256.tpl' already exists and is being loaded...
+Program loaded!
+Number of answers: 516
+true.
+
+../benchmarks/stocks-n_1_0_256.bpl: 2.109 sec. - 2.109 sec.
+Number of answers: 516
+true.
+
+../benchmarks/stocks-n_1_0_256.bpl: 2.079 sec. - 2.078 sec.
+Number of answers: 516
+true.
+
+../benchmarks/stocks-n_1_0_256.bpl: 2.109 sec. - 2.109 sec.
+Number of answers: 516
+true.
+
+../benchmarks/stocks-n_1_0_256.bpl: 2.063 sec. - 2.063 sec.
+Number of answers: 516
+true.
+
+../benchmarks/stocks-n_1_0_256.bpl: 2.063 sec. - 2.063 sec.
+Number of answers: 516
+true.
+
+../benchmarks/stocks-n_1_0_256.bpl: 2.047 sec. - 2.063 sec.
+Number of answers: 516
+true.
+
+../benchmarks/stocks-n_1_0_256.bpl: 2.094 sec. - 2.094 sec.
+Number of answers: 516
+true.
+
+../benchmarks/stocks-n_1_0_256.bpl: 2.110 sec. - 2.109 sec.
+Number of answers: 516
+true.
+
+../benchmarks/stocks-n_1_0_256.bpl: 2.094 sec. - 2.094 sec.
+Number of answers: 516
+true.
+
+../benchmarks/stocks-n_1_0_256.bpl: 2.235 sec. - 2.234 sec.
+Number of answers: 516
+true.
+
+../benchmarks/stocks-n_1_0_256.bpl: 2.047 sec. - 2.047 sec.
+=========================================================================
+Running Benchmark with: Equations=1 | Rules=0 | Assumptions=287
+=========================================================================
+Benchmark already exists: stocks-n_1_0_287.bpl.
+Benchmark already exists: stocks-s_1_0_287.bpl.
+****************************
+*       HBPL Nesting       *
+****************************
+*
+Parsing and translating 'stocks-n_1_0_287.bpl'...
+Program parsed!
+'stocks-n_1_0_287.tpl' is being loaded...
+Program loaded!
+Number of answers: 578
+true.
+
+../benchmarks/stocks-n_1_0_287.bpl: 2.953 sec. - 2.953 sec.
+Number of answers: 578
+true.
+
+../benchmarks/stocks-n_1_0_287.bpl: 2.937 sec. - 2.938 sec.
+Number of answers: 578
+true.
+
+../benchmarks/stocks-n_1_0_287.bpl: 2.844 sec. - 2.844 sec.
+Number of answers: 578
+true.
+
+../benchmarks/stocks-n_1_0_287.bpl: 2.875 sec. - 2.875 sec.
+Number of answers: 578
+true.
+
+../benchmarks/stocks-n_1_0_287.bpl: 2.891 sec. - 2.891 sec.
+Number of answers: 578
+true.
+
+../benchmarks/stocks-n_1_0_287.bpl: 2.875 sec. - 2.875 sec.
+Number of answers: 578
+true.
+
+../benchmarks/stocks-n_1_0_287.bpl: 2.953 sec. - 2.953 sec.
+Number of answers: 578
+true.
+
+../benchmarks/stocks-n_1_0_287.bpl: 2.875 sec. - 2.875 sec.
+Number of answers: 578
+true.
+
+../benchmarks/stocks-n_1_0_287.bpl: 2.860 sec. - 2.859 sec.
+Number of answers: 578
+true.
+
+../benchmarks/stocks-n_1_0_287.bpl: 2.844 sec. - 2.859 sec.
+Number of answers: 578
+true.
+
+../benchmarks/stocks-n_1_0_287.bpl: 2.906 sec. - 2.906 sec.
+=========================================================================
+Running Benchmark with: Equations=1 | Rules=0 | Assumptions=318
+=========================================================================
+Generating benchmark stocks-n_1_0_318.bpl...
+Generating benchmark stocks-s_1_0_318.bpl...
+****************************
+*       HBPL Nesting       *
+****************************
+*
+Parsing and translating 'stocks-n_1_0_318.bpl'...
+Program parsed!
+'stocks-n_1_0_318.tpl' is being loaded...
+Program loaded!
+Number of answers: 640
+true.
+
+../benchmarks/stocks-n_1_0_318.bpl: 4.078 sec. - 4.078 sec.
+Number of answers: 640
+true.
+
+../benchmarks/stocks-n_1_0_318.bpl: 3.906 sec. - 3.906 sec.
+Number of answers: 640
+true.
+
+../benchmarks/stocks-n_1_0_318.bpl: 3.860 sec. - 3.859 sec.
+Number of answers: 640
+true.
+
+../benchmarks/stocks-n_1_0_318.bpl: 3.891 sec. - 3.891 sec.
+Number of answers: 640
+true.
+
+../benchmarks/stocks-n_1_0_318.bpl: 3.954 sec. - 3.953 sec.
+Number of answers: 640
+true.
+
+../benchmarks/stocks-n_1_0_318.bpl: 3.875 sec. - 3.875 sec.
+Number of answers: 640
+true.
+
+../benchmarks/stocks-n_1_0_318.bpl: 3.906 sec. - 3.906 sec.
+Number of answers: 640
+true.
+
+../benchmarks/stocks-n_1_0_318.bpl: 3.922 sec. - 3.922 sec.
+Number of answers: 640
+true.
+
+../benchmarks/stocks-n_1_0_318.bpl: 3.907 sec. - 3.922 sec.
+Number of answers: 640
+true.
+
+../benchmarks/stocks-n_1_0_318.bpl: 4.110 sec. - 4.125 sec.
+Number of answers: 640
+true.
+
+../benchmarks/stocks-n_1_0_318.bpl: 3.922 sec. - 3.922 sec.
+=========================================================================
+Running Benchmark with: Equations=1 | Rules=0 | Assumptions=350
+=========================================================================
+Generating benchmark stocks-n_1_0_350.bpl...
+Generating benchmark stocks-s_1_0_350.bpl...
+****************************
+*       HBPL Nesting       *
+****************************
+*
+Parsing and translating 'stocks-n_1_0_350.bpl'...
+Program parsed!
+'stocks-n_1_0_350.tpl' is being loaded...
+Program loaded!
+Number of answers: 704
+true.
+
+../benchmarks/stocks-n_1_0_350.bpl: 5.203 sec. - 5.203 sec.
+Number of answers: 704
+true.
+
+../benchmarks/stocks-n_1_0_350.bpl: 5.454 sec. - 5.453 sec.
+Number of answers: 704
+true.
+
+../benchmarks/stocks-n_1_0_350.bpl: 5.188 sec. - 5.187 sec.
+Number of answers: 704
+true.
+
+../benchmarks/stocks-n_1_0_350.bpl: 5.219 sec. - 5.219 sec.
+Number of answers: 704
+true.
+
+../benchmarks/stocks-n_1_0_350.bpl: 5.485 sec. - 5.484 sec.
+Number of answers: 704
+true.
+
+../benchmarks/stocks-n_1_0_350.bpl: 5.203 sec. - 5.203 sec.
+Number of answers: 704
+true.
+
+../benchmarks/stocks-n_1_0_350.bpl: 5.219 sec. - 5.219 sec.
+Number of answers: 704
+true.
+
+../benchmarks/stocks-n_1_0_350.bpl: 5.172 sec. - 5.188 sec.
+Number of answers: 704
+true.
+
+../benchmarks/stocks-n_1_0_350.bpl: 5.265 sec. - 5.266 sec.
+Number of answers: 704
+true.
+
+../benchmarks/stocks-n_1_0_350.bpl: 5.234 sec. - 5.234 sec.
+Number of answers: 704
+true.
+
+../benchmarks/stocks-n_1_0_350.bpl: 5.234 sec. - 5.234 sec.
+
+Total Automation Elapsed time: 00:06:39
+21:46

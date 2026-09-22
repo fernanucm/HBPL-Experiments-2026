@@ -1,0 +1,16 @@
+RELEASE NOTES
+=============
+
+Enhancements:
+
+-  Added the 'c' option to the ld command to compile without consulting the resulting TPL file.
+
+
+Changes:
+
+- 
+
+
+Fixed bugs:
+
+- 

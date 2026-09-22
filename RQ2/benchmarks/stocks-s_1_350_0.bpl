@@ -1,0 +1,727 @@
+:- hypothetical(true).
+:- weak_unification(a3).
+:- indexing(false).
+
+% Proximity relation matrix inducing a fully connected transitive component
+middle ~ old = 0.5.
+young ~ middle = 0.62.
+
+% Scaled Database Facts (N = 350)
+middle(paul).
+old(mary).
+
+shareholder(paul, google).
+shareholder(paul, greek_bonds).
+shareholder(mary, google).
+
+stock_up(google) with 0.9.
+stock_up(greek_bonds) with 0.2.
+shareholder(paul, stock_1).
+stock_up(stock_1) with 0.2.
+shareholder(paul, stock_2).
+stock_up(stock_2) with 0.2.
+shareholder(paul, stock_3).
+stock_up(stock_3) with 0.2.
+shareholder(paul, stock_4).
+stock_up(stock_4) with 0.2.
+shareholder(paul, stock_5).
+stock_up(stock_5) with 0.2.
+shareholder(paul, stock_6).
+stock_up(stock_6) with 0.2.
+shareholder(paul, stock_7).
+stock_up(stock_7) with 0.2.
+shareholder(paul, stock_8).
+stock_up(stock_8) with 0.2.
+shareholder(paul, stock_9).
+stock_up(stock_9) with 0.2.
+shareholder(paul, stock_10).
+stock_up(stock_10) with 0.2.
+shareholder(paul, stock_11).
+stock_up(stock_11) with 0.2.
+shareholder(paul, stock_12).
+stock_up(stock_12) with 0.2.
+shareholder(paul, stock_13).
+stock_up(stock_13) with 0.2.
+shareholder(paul, stock_14).
+stock_up(stock_14) with 0.2.
+shareholder(paul, stock_15).
+stock_up(stock_15) with 0.2.
+shareholder(paul, stock_16).
+stock_up(stock_16) with 0.2.
+shareholder(paul, stock_17).
+stock_up(stock_17) with 0.2.
+shareholder(paul, stock_18).
+stock_up(stock_18) with 0.2.
+shareholder(paul, stock_19).
+stock_up(stock_19) with 0.2.
+shareholder(paul, stock_20).
+stock_up(stock_20) with 0.2.
+shareholder(paul, stock_21).
+stock_up(stock_21) with 0.2.
+shareholder(paul, stock_22).
+stock_up(stock_22) with 0.2.
+shareholder(paul, stock_23).
+stock_up(stock_23) with 0.2.
+shareholder(paul, stock_24).
+stock_up(stock_24) with 0.2.
+shareholder(paul, stock_25).
+stock_up(stock_25) with 0.2.
+shareholder(paul, stock_26).
+stock_up(stock_26) with 0.2.
+shareholder(paul, stock_27).
+stock_up(stock_27) with 0.2.
+shareholder(paul, stock_28).
+stock_up(stock_28) with 0.2.
+shareholder(paul, stock_29).
+stock_up(stock_29) with 0.2.
+shareholder(paul, stock_30).
+stock_up(stock_30) with 0.2.
+shareholder(paul, stock_31).
+stock_up(stock_31) with 0.2.
+shareholder(paul, stock_32).
+stock_up(stock_32) with 0.2.
+shareholder(paul, stock_33).
+stock_up(stock_33) with 0.2.
+shareholder(paul, stock_34).
+stock_up(stock_34) with 0.2.
+shareholder(paul, stock_35).
+stock_up(stock_35) with 0.2.
+shareholder(paul, stock_36).
+stock_up(stock_36) with 0.2.
+shareholder(paul, stock_37).
+stock_up(stock_37) with 0.2.
+shareholder(paul, stock_38).
+stock_up(stock_38) with 0.2.
+shareholder(paul, stock_39).
+stock_up(stock_39) with 0.2.
+shareholder(paul, stock_40).
+stock_up(stock_40) with 0.2.
+shareholder(paul, stock_41).
+stock_up(stock_41) with 0.2.
+shareholder(paul, stock_42).
+stock_up(stock_42) with 0.2.
+shareholder(paul, stock_43).
+stock_up(stock_43) with 0.2.
+shareholder(paul, stock_44).
+stock_up(stock_44) with 0.2.
+shareholder(paul, stock_45).
+stock_up(stock_45) with 0.2.
+shareholder(paul, stock_46).
+stock_up(stock_46) with 0.2.
+shareholder(paul, stock_47).
+stock_up(stock_47) with 0.2.
+shareholder(paul, stock_48).
+stock_up(stock_48) with 0.2.
+shareholder(paul, stock_49).
+stock_up(stock_49) with 0.2.
+shareholder(paul, stock_50).
+stock_up(stock_50) with 0.2.
+shareholder(paul, stock_51).
+stock_up(stock_51) with 0.2.
+shareholder(paul, stock_52).
+stock_up(stock_52) with 0.2.
+shareholder(paul, stock_53).
+stock_up(stock_53) with 0.2.
+shareholder(paul, stock_54).
+stock_up(stock_54) with 0.2.
+shareholder(paul, stock_55).
+stock_up(stock_55) with 0.2.
+shareholder(paul, stock_56).
+stock_up(stock_56) with 0.2.
+shareholder(paul, stock_57).
+stock_up(stock_57) with 0.2.
+shareholder(paul, stock_58).
+stock_up(stock_58) with 0.2.
+shareholder(paul, stock_59).
+stock_up(stock_59) with 0.2.
+shareholder(paul, stock_60).
+stock_up(stock_60) with 0.2.
+shareholder(paul, stock_61).
+stock_up(stock_61) with 0.2.
+shareholder(paul, stock_62).
+stock_up(stock_62) with 0.2.
+shareholder(paul, stock_63).
+stock_up(stock_63) with 0.2.
+shareholder(paul, stock_64).
+stock_up(stock_64) with 0.2.
+shareholder(paul, stock_65).
+stock_up(stock_65) with 0.2.
+shareholder(paul, stock_66).
+stock_up(stock_66) with 0.2.
+shareholder(paul, stock_67).
+stock_up(stock_67) with 0.2.
+shareholder(paul, stock_68).
+stock_up(stock_68) with 0.2.
+shareholder(paul, stock_69).
+stock_up(stock_69) with 0.2.
+shareholder(paul, stock_70).
+stock_up(stock_70) with 0.2.
+shareholder(paul, stock_71).
+stock_up(stock_71) with 0.2.
+shareholder(paul, stock_72).
+stock_up(stock_72) with 0.2.
+shareholder(paul, stock_73).
+stock_up(stock_73) with 0.2.
+shareholder(paul, stock_74).
+stock_up(stock_74) with 0.2.
+shareholder(paul, stock_75).
+stock_up(stock_75) with 0.2.
+shareholder(paul, stock_76).
+stock_up(stock_76) with 0.2.
+shareholder(paul, stock_77).
+stock_up(stock_77) with 0.2.
+shareholder(paul, stock_78).
+stock_up(stock_78) with 0.2.
+shareholder(paul, stock_79).
+stock_up(stock_79) with 0.2.
+shareholder(paul, stock_80).
+stock_up(stock_80) with 0.2.
+shareholder(paul, stock_81).
+stock_up(stock_81) with 0.2.
+shareholder(paul, stock_82).
+stock_up(stock_82) with 0.2.
+shareholder(paul, stock_83).
+stock_up(stock_83) with 0.2.
+shareholder(paul, stock_84).
+stock_up(stock_84) with 0.2.
+shareholder(paul, stock_85).
+stock_up(stock_85) with 0.2.
+shareholder(paul, stock_86).
+stock_up(stock_86) with 0.2.
+shareholder(paul, stock_87).
+stock_up(stock_87) with 0.2.
+shareholder(paul, stock_88).
+stock_up(stock_88) with 0.2.
+shareholder(paul, stock_89).
+stock_up(stock_89) with 0.2.
+shareholder(paul, stock_90).
+stock_up(stock_90) with 0.2.
+shareholder(paul, stock_91).
+stock_up(stock_91) with 0.2.
+shareholder(paul, stock_92).
+stock_up(stock_92) with 0.2.
+shareholder(paul, stock_93).
+stock_up(stock_93) with 0.2.
+shareholder(paul, stock_94).
+stock_up(stock_94) with 0.2.
+shareholder(paul, stock_95).
+stock_up(stock_95) with 0.2.
+shareholder(paul, stock_96).
+stock_up(stock_96) with 0.2.
+shareholder(paul, stock_97).
+stock_up(stock_97) with 0.2.
+shareholder(paul, stock_98).
+stock_up(stock_98) with 0.2.
+shareholder(paul, stock_99).
+stock_up(stock_99) with 0.2.
+shareholder(paul, stock_100).
+stock_up(stock_100) with 0.2.
+shareholder(paul, stock_101).
+stock_up(stock_101) with 0.2.
+shareholder(paul, stock_102).
+stock_up(stock_102) with 0.2.
+shareholder(paul, stock_103).
+stock_up(stock_103) with 0.2.
+shareholder(paul, stock_104).
+stock_up(stock_104) with 0.2.
+shareholder(paul, stock_105).
+stock_up(stock_105) with 0.2.
+shareholder(paul, stock_106).
+stock_up(stock_106) with 0.2.
+shareholder(paul, stock_107).
+stock_up(stock_107) with 0.2.
+shareholder(paul, stock_108).
+stock_up(stock_108) with 0.2.
+shareholder(paul, stock_109).
+stock_up(stock_109) with 0.2.
+shareholder(paul, stock_110).
+stock_up(stock_110) with 0.2.
+shareholder(paul, stock_111).
+stock_up(stock_111) with 0.2.
+shareholder(paul, stock_112).
+stock_up(stock_112) with 0.2.
+shareholder(paul, stock_113).
+stock_up(stock_113) with 0.2.
+shareholder(paul, stock_114).
+stock_up(stock_114) with 0.2.
+shareholder(paul, stock_115).
+stock_up(stock_115) with 0.2.
+shareholder(paul, stock_116).
+stock_up(stock_116) with 0.2.
+shareholder(paul, stock_117).
+stock_up(stock_117) with 0.2.
+shareholder(paul, stock_118).
+stock_up(stock_118) with 0.2.
+shareholder(paul, stock_119).
+stock_up(stock_119) with 0.2.
+shareholder(paul, stock_120).
+stock_up(stock_120) with 0.2.
+shareholder(paul, stock_121).
+stock_up(stock_121) with 0.2.
+shareholder(paul, stock_122).
+stock_up(stock_122) with 0.2.
+shareholder(paul, stock_123).
+stock_up(stock_123) with 0.2.
+shareholder(paul, stock_124).
+stock_up(stock_124) with 0.2.
+shareholder(paul, stock_125).
+stock_up(stock_125) with 0.2.
+shareholder(paul, stock_126).
+stock_up(stock_126) with 0.2.
+shareholder(paul, stock_127).
+stock_up(stock_127) with 0.2.
+shareholder(paul, stock_128).
+stock_up(stock_128) with 0.2.
+shareholder(paul, stock_129).
+stock_up(stock_129) with 0.2.
+shareholder(paul, stock_130).
+stock_up(stock_130) with 0.2.
+shareholder(paul, stock_131).
+stock_up(stock_131) with 0.2.
+shareholder(paul, stock_132).
+stock_up(stock_132) with 0.2.
+shareholder(paul, stock_133).
+stock_up(stock_133) with 0.2.
+shareholder(paul, stock_134).
+stock_up(stock_134) with 0.2.
+shareholder(paul, stock_135).
+stock_up(stock_135) with 0.2.
+shareholder(paul, stock_136).
+stock_up(stock_136) with 0.2.
+shareholder(paul, stock_137).
+stock_up(stock_137) with 0.2.
+shareholder(paul, stock_138).
+stock_up(stock_138) with 0.2.
+shareholder(paul, stock_139).
+stock_up(stock_139) with 0.2.
+shareholder(paul, stock_140).
+stock_up(stock_140) with 0.2.
+shareholder(paul, stock_141).
+stock_up(stock_141) with 0.2.
+shareholder(paul, stock_142).
+stock_up(stock_142) with 0.2.
+shareholder(paul, stock_143).
+stock_up(stock_143) with 0.2.
+shareholder(paul, stock_144).
+stock_up(stock_144) with 0.2.
+shareholder(paul, stock_145).
+stock_up(stock_145) with 0.2.
+shareholder(paul, stock_146).
+stock_up(stock_146) with 0.2.
+shareholder(paul, stock_147).
+stock_up(stock_147) with 0.2.
+shareholder(paul, stock_148).
+stock_up(stock_148) with 0.2.
+shareholder(paul, stock_149).
+stock_up(stock_149) with 0.2.
+shareholder(paul, stock_150).
+stock_up(stock_150) with 0.2.
+shareholder(paul, stock_151).
+stock_up(stock_151) with 0.2.
+shareholder(paul, stock_152).
+stock_up(stock_152) with 0.2.
+shareholder(paul, stock_153).
+stock_up(stock_153) with 0.2.
+shareholder(paul, stock_154).
+stock_up(stock_154) with 0.2.
+shareholder(paul, stock_155).
+stock_up(stock_155) with 0.2.
+shareholder(paul, stock_156).
+stock_up(stock_156) with 0.2.
+shareholder(paul, stock_157).
+stock_up(stock_157) with 0.2.
+shareholder(paul, stock_158).
+stock_up(stock_158) with 0.2.
+shareholder(paul, stock_159).
+stock_up(stock_159) with 0.2.
+shareholder(paul, stock_160).
+stock_up(stock_160) with 0.2.
+shareholder(paul, stock_161).
+stock_up(stock_161) with 0.2.
+shareholder(paul, stock_162).
+stock_up(stock_162) with 0.2.
+shareholder(paul, stock_163).
+stock_up(stock_163) with 0.2.
+shareholder(paul, stock_164).
+stock_up(stock_164) with 0.2.
+shareholder(paul, stock_165).
+stock_up(stock_165) with 0.2.
+shareholder(paul, stock_166).
+stock_up(stock_166) with 0.2.
+shareholder(paul, stock_167).
+stock_up(stock_167) with 0.2.
+shareholder(paul, stock_168).
+stock_up(stock_168) with 0.2.
+shareholder(paul, stock_169).
+stock_up(stock_169) with 0.2.
+shareholder(paul, stock_170).
+stock_up(stock_170) with 0.2.
+shareholder(paul, stock_171).
+stock_up(stock_171) with 0.2.
+shareholder(paul, stock_172).
+stock_up(stock_172) with 0.2.
+shareholder(paul, stock_173).
+stock_up(stock_173) with 0.2.
+shareholder(paul, stock_174).
+stock_up(stock_174) with 0.2.
+shareholder(paul, stock_175).
+stock_up(stock_175) with 0.2.
+shareholder(paul, stock_176).
+stock_up(stock_176) with 0.2.
+shareholder(paul, stock_177).
+stock_up(stock_177) with 0.2.
+shareholder(paul, stock_178).
+stock_up(stock_178) with 0.2.
+shareholder(paul, stock_179).
+stock_up(stock_179) with 0.2.
+shareholder(paul, stock_180).
+stock_up(stock_180) with 0.2.
+shareholder(paul, stock_181).
+stock_up(stock_181) with 0.2.
+shareholder(paul, stock_182).
+stock_up(stock_182) with 0.2.
+shareholder(paul, stock_183).
+stock_up(stock_183) with 0.2.
+shareholder(paul, stock_184).
+stock_up(stock_184) with 0.2.
+shareholder(paul, stock_185).
+stock_up(stock_185) with 0.2.
+shareholder(paul, stock_186).
+stock_up(stock_186) with 0.2.
+shareholder(paul, stock_187).
+stock_up(stock_187) with 0.2.
+shareholder(paul, stock_188).
+stock_up(stock_188) with 0.2.
+shareholder(paul, stock_189).
+stock_up(stock_189) with 0.2.
+shareholder(paul, stock_190).
+stock_up(stock_190) with 0.2.
+shareholder(paul, stock_191).
+stock_up(stock_191) with 0.2.
+shareholder(paul, stock_192).
+stock_up(stock_192) with 0.2.
+shareholder(paul, stock_193).
+stock_up(stock_193) with 0.2.
+shareholder(paul, stock_194).
+stock_up(stock_194) with 0.2.
+shareholder(paul, stock_195).
+stock_up(stock_195) with 0.2.
+shareholder(paul, stock_196).
+stock_up(stock_196) with 0.2.
+shareholder(paul, stock_197).
+stock_up(stock_197) with 0.2.
+shareholder(paul, stock_198).
+stock_up(stock_198) with 0.2.
+shareholder(paul, stock_199).
+stock_up(stock_199) with 0.2.
+shareholder(paul, stock_200).
+stock_up(stock_200) with 0.2.
+shareholder(paul, stock_201).
+stock_up(stock_201) with 0.2.
+shareholder(paul, stock_202).
+stock_up(stock_202) with 0.2.
+shareholder(paul, stock_203).
+stock_up(stock_203) with 0.2.
+shareholder(paul, stock_204).
+stock_up(stock_204) with 0.2.
+shareholder(paul, stock_205).
+stock_up(stock_205) with 0.2.
+shareholder(paul, stock_206).
+stock_up(stock_206) with 0.2.
+shareholder(paul, stock_207).
+stock_up(stock_207) with 0.2.
+shareholder(paul, stock_208).
+stock_up(stock_208) with 0.2.
+shareholder(paul, stock_209).
+stock_up(stock_209) with 0.2.
+shareholder(paul, stock_210).
+stock_up(stock_210) with 0.2.
+shareholder(paul, stock_211).
+stock_up(stock_211) with 0.2.
+shareholder(paul, stock_212).
+stock_up(stock_212) with 0.2.
+shareholder(paul, stock_213).
+stock_up(stock_213) with 0.2.
+shareholder(paul, stock_214).
+stock_up(stock_214) with 0.2.
+shareholder(paul, stock_215).
+stock_up(stock_215) with 0.2.
+shareholder(paul, stock_216).
+stock_up(stock_216) with 0.2.
+shareholder(paul, stock_217).
+stock_up(stock_217) with 0.2.
+shareholder(paul, stock_218).
+stock_up(stock_218) with 0.2.
+shareholder(paul, stock_219).
+stock_up(stock_219) with 0.2.
+shareholder(paul, stock_220).
+stock_up(stock_220) with 0.2.
+shareholder(paul, stock_221).
+stock_up(stock_221) with 0.2.
+shareholder(paul, stock_222).
+stock_up(stock_222) with 0.2.
+shareholder(paul, stock_223).
+stock_up(stock_223) with 0.2.
+shareholder(paul, stock_224).
+stock_up(stock_224) with 0.2.
+shareholder(paul, stock_225).
+stock_up(stock_225) with 0.2.
+shareholder(paul, stock_226).
+stock_up(stock_226) with 0.2.
+shareholder(paul, stock_227).
+stock_up(stock_227) with 0.2.
+shareholder(paul, stock_228).
+stock_up(stock_228) with 0.2.
+shareholder(paul, stock_229).
+stock_up(stock_229) with 0.2.
+shareholder(paul, stock_230).
+stock_up(stock_230) with 0.2.
+shareholder(paul, stock_231).
+stock_up(stock_231) with 0.2.
+shareholder(paul, stock_232).
+stock_up(stock_232) with 0.2.
+shareholder(paul, stock_233).
+stock_up(stock_233) with 0.2.
+shareholder(paul, stock_234).
+stock_up(stock_234) with 0.2.
+shareholder(paul, stock_235).
+stock_up(stock_235) with 0.2.
+shareholder(paul, stock_236).
+stock_up(stock_236) with 0.2.
+shareholder(paul, stock_237).
+stock_up(stock_237) with 0.2.
+shareholder(paul, stock_238).
+stock_up(stock_238) with 0.2.
+shareholder(paul, stock_239).
+stock_up(stock_239) with 0.2.
+shareholder(paul, stock_240).
+stock_up(stock_240) with 0.2.
+shareholder(paul, stock_241).
+stock_up(stock_241) with 0.2.
+shareholder(paul, stock_242).
+stock_up(stock_242) with 0.2.
+shareholder(paul, stock_243).
+stock_up(stock_243) with 0.2.
+shareholder(paul, stock_244).
+stock_up(stock_244) with 0.2.
+shareholder(paul, stock_245).
+stock_up(stock_245) with 0.2.
+shareholder(paul, stock_246).
+stock_up(stock_246) with 0.2.
+shareholder(paul, stock_247).
+stock_up(stock_247) with 0.2.
+shareholder(paul, stock_248).
+stock_up(stock_248) with 0.2.
+shareholder(paul, stock_249).
+stock_up(stock_249) with 0.2.
+shareholder(paul, stock_250).
+stock_up(stock_250) with 0.2.
+shareholder(paul, stock_251).
+stock_up(stock_251) with 0.2.
+shareholder(paul, stock_252).
+stock_up(stock_252) with 0.2.
+shareholder(paul, stock_253).
+stock_up(stock_253) with 0.2.
+shareholder(paul, stock_254).
+stock_up(stock_254) with 0.2.
+shareholder(paul, stock_255).
+stock_up(stock_255) with 0.2.
+shareholder(paul, stock_256).
+stock_up(stock_256) with 0.2.
+shareholder(paul, stock_257).
+stock_up(stock_257) with 0.2.
+shareholder(paul, stock_258).
+stock_up(stock_258) with 0.2.
+shareholder(paul, stock_259).
+stock_up(stock_259) with 0.2.
+shareholder(paul, stock_260).
+stock_up(stock_260) with 0.2.
+shareholder(paul, stock_261).
+stock_up(stock_261) with 0.2.
+shareholder(paul, stock_262).
+stock_up(stock_262) with 0.2.
+shareholder(paul, stock_263).
+stock_up(stock_263) with 0.2.
+shareholder(paul, stock_264).
+stock_up(stock_264) with 0.2.
+shareholder(paul, stock_265).
+stock_up(stock_265) with 0.2.
+shareholder(paul, stock_266).
+stock_up(stock_266) with 0.2.
+shareholder(paul, stock_267).
+stock_up(stock_267) with 0.2.
+shareholder(paul, stock_268).
+stock_up(stock_268) with 0.2.
+shareholder(paul, stock_269).
+stock_up(stock_269) with 0.2.
+shareholder(paul, stock_270).
+stock_up(stock_270) with 0.2.
+shareholder(paul, stock_271).
+stock_up(stock_271) with 0.2.
+shareholder(paul, stock_272).
+stock_up(stock_272) with 0.2.
+shareholder(paul, stock_273).
+stock_up(stock_273) with 0.2.
+shareholder(paul, stock_274).
+stock_up(stock_274) with 0.2.
+shareholder(paul, stock_275).
+stock_up(stock_275) with 0.2.
+shareholder(paul, stock_276).
+stock_up(stock_276) with 0.2.
+shareholder(paul, stock_277).
+stock_up(stock_277) with 0.2.
+shareholder(paul, stock_278).
+stock_up(stock_278) with 0.2.
+shareholder(paul, stock_279).
+stock_up(stock_279) with 0.2.
+shareholder(paul, stock_280).
+stock_up(stock_280) with 0.2.
+shareholder(paul, stock_281).
+stock_up(stock_281) with 0.2.
+shareholder(paul, stock_282).
+stock_up(stock_282) with 0.2.
+shareholder(paul, stock_283).
+stock_up(stock_283) with 0.2.
+shareholder(paul, stock_284).
+stock_up(stock_284) with 0.2.
+shareholder(paul, stock_285).
+stock_up(stock_285) with 0.2.
+shareholder(paul, stock_286).
+stock_up(stock_286) with 0.2.
+shareholder(paul, stock_287).
+stock_up(stock_287) with 0.2.
+shareholder(paul, stock_288).
+stock_up(stock_288) with 0.2.
+shareholder(paul, stock_289).
+stock_up(stock_289) with 0.2.
+shareholder(paul, stock_290).
+stock_up(stock_290) with 0.2.
+shareholder(paul, stock_291).
+stock_up(stock_291) with 0.2.
+shareholder(paul, stock_292).
+stock_up(stock_292) with 0.2.
+shareholder(paul, stock_293).
+stock_up(stock_293) with 0.2.
+shareholder(paul, stock_294).
+stock_up(stock_294) with 0.2.
+shareholder(paul, stock_295).
+stock_up(stock_295) with 0.2.
+shareholder(paul, stock_296).
+stock_up(stock_296) with 0.2.
+shareholder(paul, stock_297).
+stock_up(stock_297) with 0.2.
+shareholder(paul, stock_298).
+stock_up(stock_298) with 0.2.
+shareholder(paul, stock_299).
+stock_up(stock_299) with 0.2.
+shareholder(paul, stock_300).
+stock_up(stock_300) with 0.2.
+shareholder(paul, stock_301).
+stock_up(stock_301) with 0.2.
+shareholder(paul, stock_302).
+stock_up(stock_302) with 0.2.
+shareholder(paul, stock_303).
+stock_up(stock_303) with 0.2.
+shareholder(paul, stock_304).
+stock_up(stock_304) with 0.2.
+shareholder(paul, stock_305).
+stock_up(stock_305) with 0.2.
+shareholder(paul, stock_306).
+stock_up(stock_306) with 0.2.
+shareholder(paul, stock_307).
+stock_up(stock_307) with 0.2.
+shareholder(paul, stock_308).
+stock_up(stock_308) with 0.2.
+shareholder(paul, stock_309).
+stock_up(stock_309) with 0.2.
+shareholder(paul, stock_310).
+stock_up(stock_310) with 0.2.
+shareholder(paul, stock_311).
+stock_up(stock_311) with 0.2.
+shareholder(paul, stock_312).
+stock_up(stock_312) with 0.2.
+shareholder(paul, stock_313).
+stock_up(stock_313) with 0.2.
+shareholder(paul, stock_314).
+stock_up(stock_314) with 0.2.
+shareholder(paul, stock_315).
+stock_up(stock_315) with 0.2.
+shareholder(paul, stock_316).
+stock_up(stock_316) with 0.2.
+shareholder(paul, stock_317).
+stock_up(stock_317) with 0.2.
+shareholder(paul, stock_318).
+stock_up(stock_318) with 0.2.
+shareholder(paul, stock_319).
+stock_up(stock_319) with 0.2.
+shareholder(paul, stock_320).
+stock_up(stock_320) with 0.2.
+shareholder(paul, stock_321).
+stock_up(stock_321) with 0.2.
+shareholder(paul, stock_322).
+stock_up(stock_322) with 0.2.
+shareholder(paul, stock_323).
+stock_up(stock_323) with 0.2.
+shareholder(paul, stock_324).
+stock_up(stock_324) with 0.2.
+shareholder(paul, stock_325).
+stock_up(stock_325) with 0.2.
+shareholder(paul, stock_326).
+stock_up(stock_326) with 0.2.
+shareholder(paul, stock_327).
+stock_up(stock_327) with 0.2.
+shareholder(paul, stock_328).
+stock_up(stock_328) with 0.2.
+shareholder(paul, stock_329).
+stock_up(stock_329) with 0.2.
+shareholder(paul, stock_330).
+stock_up(stock_330) with 0.2.
+shareholder(paul, stock_331).
+stock_up(stock_331) with 0.2.
+shareholder(paul, stock_332).
+stock_up(stock_332) with 0.2.
+shareholder(paul, stock_333).
+stock_up(stock_333) with 0.2.
+shareholder(paul, stock_334).
+stock_up(stock_334) with 0.2.
+shareholder(paul, stock_335).
+stock_up(stock_335) with 0.2.
+shareholder(paul, stock_336).
+stock_up(stock_336) with 0.2.
+shareholder(paul, stock_337).
+stock_up(stock_337) with 0.2.
+shareholder(paul, stock_338).
+stock_up(stock_338) with 0.2.
+shareholder(paul, stock_339).
+stock_up(stock_339) with 0.2.
+shareholder(paul, stock_340).
+stock_up(stock_340) with 0.2.
+shareholder(paul, stock_341).
+stock_up(stock_341) with 0.2.
+shareholder(paul, stock_342).
+stock_up(stock_342) with 0.2.
+shareholder(paul, stock_343).
+stock_up(stock_343) with 0.2.
+shareholder(paul, stock_344).
+stock_up(stock_344) with 0.2.
+shareholder(paul, stock_345).
+stock_up(stock_345) with 0.2.
+shareholder(paul, stock_346).
+stock_up(stock_346) with 0.2.
+shareholder(paul, stock_347).
+stock_up(stock_347) with 0.2.
+shareholder(paul, stock_348).
+stock_up(stock_348) with 0.2.
+shareholder(paul, stock_349).
+stock_up(stock_349) with 0.2.
+shareholder(paul, stock_350).
+stock_up(stock_350) with 0.2.
+
+% Core Rules
+keep_stock(Name, Stock) :- shareholder(Name, Stock), (stock_up(Stock); young(Name)).
+sell_stock(Name, Stock) :- shareholder(Name, Stock), stock_down(Stock), old(Name).
+
+% RQ2 Target Goal: Nested Implication Structure (Depth K = 0)
+bench :- findall(S,
+    => keep_stock(paul, S),
+    Answers), length(Answers, L), write('Number of answers: '), writeln(L), setenv('Answers', L).
